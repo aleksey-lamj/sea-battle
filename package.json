@@ -8,8 +8,7 @@
     "dev": "webpack-dev-server --mode development --open"
   },
   "browserslist": [
-    "> 1%",
-    "last 3 version"
+      "> 1%"
   ],
   "keywords": [],
   "author": "Aleksey Kalyuzhnyi",
@@ -35,6 +34,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "cssnano": "^4.1.10"
   }
 }

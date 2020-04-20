@@ -1,4 +1,7 @@
 import './main.scss';
+import "@babel/polyfill";
+import './polyfill';
+
 
 class NavalBattle {
   constructor({
